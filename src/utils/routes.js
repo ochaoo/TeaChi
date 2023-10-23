@@ -1,0 +1,5 @@
+export const MAIN_ROUTE = '/'
+export const PRODUCTS_ROUTE = '/products'
+export const CONTACT_ROUTE = '/contact'
+export const ABOUT_US_ROUTE = '/about'
+export const ABOUT_PRODUCT_ROUTE = '/product'
