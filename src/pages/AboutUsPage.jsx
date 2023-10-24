@@ -9,7 +9,7 @@ const AboutUsPage = () => {
     return (
       <>
         <div className="bg-gradient-right h-1 mb-[70px]"></div>
-        <h2 className="text-center font-montserrat-alternates font-medium text-4xl mb-[14px]">Contact us</h2>
+        <h2 className="text-center font-montserrat-alternates font-medium text-4xl mb-[14px]">About us</h2>
 
         <p className="text-center font-montserrat font-normal text-2xl mb-[72px]">
           Our tea house continue to grows in order to allow everyone to discover tea.
