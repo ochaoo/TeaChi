@@ -10,13 +10,9 @@ import CarouselItemTea from './CarouselItemTea'
 
 const Carousel = ({tea, items}) => {
 
-  const [leftDisabled, setLeftDisabled] = useState(true)
-  const [rightDisabled, setRightDisabled] = useState(false)
-
-
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
