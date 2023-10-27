@@ -41,7 +41,7 @@ const ProductsPage = () => {
         {currentFilter === 'all' ? 
           [...BlackTea, ...FruitTea, ...GreenTea].map(tea => 
             <CardTea caption={tea.caption} id={tea.id} image={tea.image}
-              text={tea.text} key={tea.id}/>
+              text={tea.text} key={tea.id} description={tea.descriptionList}/>
           )
           :
           filteredTeaList.map(tea => 

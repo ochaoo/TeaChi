@@ -13,7 +13,7 @@ const CardTea = ({image, description, caption, text, id}) => {
 
       <div className="font-medium text-lg max-w-[288px] text-center mt-6 mb-4">{caption}</div>
 
-      <div className="font-normal text-sm max-w-[288px] text-center">{text}</div>
+      <div className="font-normal text-sm max-w-[288px] text-center mb-4">{text}</div>
 
       <div className="font-normal text-sm max-w-[319px] text-center">{description}</div>
 
