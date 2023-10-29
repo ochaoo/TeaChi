@@ -27,7 +27,7 @@ const Carousel = ({tea, items}) => {
 
     return (
     (tea ? 
-      <div className="h-[413px] ml-[15%] max-w-[70%] box-border pt-8">
+      <div className="h-[413px] max-w-[1270px] box-border pt-8 mx-auto">
        
         <Slider {...settings}>
           {items.map((item, index) => 
@@ -40,7 +40,7 @@ const Carousel = ({tea, items}) => {
       
       :
 
-      <div className="h-[263px] ml-[15%] max-w-[70%] box-border pt-2">
+      <div className="h-[263px] max-w-[1270px] box-border pt-2 mx-auto">
 
         <Slider {...settings}>
           {items.map((item, index) => 

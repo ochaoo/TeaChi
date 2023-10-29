@@ -46,7 +46,7 @@ const MainPage = () => {
         <div className="bg-gradient-left h-1 mt-4 mb-16"></div>
 
         <h2 className="text-center font-montserrat-alternates font-medium text-2xl mb-8">Most Popular Tea</h2>
-        <div className="bg-no-repeat bg-cover h-[413px] box-border bg-[url('./assets/image/PopularTea.png')]">
+        <div className="bg-no-repeat bg-cover h-[440px] box-border bg-[url('./assets/image/PopularTea.png')]">
           <Carousel tea={true} items={itemsPopularTea}/>
         </div>
         
@@ -56,7 +56,7 @@ const MainPage = () => {
         </div>
 
         <h2 className="text-center font-montserrat-alternates font-medium text-2xl mb-8">New</h2>
-        <div className="h-[413px] box-border bg-[url('./assets/image/New.png')] ">
+        <div className="h-[440px] box-border bg-[url('./assets/image/New.png')] ">
           <Carousel tea={true} items={itemsNewTea}/>
         </div>
 
