@@ -19,8 +19,9 @@ const Footer = () => {
         <div className="flex flex-col mr-11">
             <p className="text-xl font-medium mb-8">Contact</p>
 
-            <p className="text-lg mb-4">888 88 888 88</p>
-            <p className="text-lg mb-4">888 88 888 88</p>
+            <p className="text-lg mb-0 leading-[1.340]">+38 (044) 545 44 44</p>
+            <p className="text-lg mb-0 leading-[1.340]">+38 (050) 545 44 44</p>
+            <p className="text-lg mb-4 leading-[1.340]">+38 (068) 545 44 44</p>
             <p className="text-lg">TEACHI@gmail.com</p>
 
         </div>
