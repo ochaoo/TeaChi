@@ -11,30 +11,30 @@ const ContactPage = () => {
   const [isSuccesPopupVisible, setIsSuccesPopupVisible] = useState(false)
 
     return (
-      <>
+      <div className="font-montserrat">
         <div className="bg-gradient-right h-1 mb-[70px]"></div>
         <h2 className="text-center font-montserrat-alternates font-medium text-4xl mb-4">Contact us</h2>
 
-        <div className="max-w-[808px] mx-auto flex flex-col items-center mb-16">
-          <p className="font-montserrat font-medium text-2xl w-full mb-4">Name</p>
+        <div className="max-w-[808px] mx-auto flex flex-col items-center mb-16 font-medium text-2xl">
+          <p className="w-full mb-4">Name</p>
           <input type="text" className="w-full mb-8 h-[50px] rounded border-solid border-[1px] border-[#B50000]" />
 
-          <p className="font-montserrat font-medium text-2xl w-full mb-4">Surname</p>
+          <p className="w-full mb-4">Surname</p>
           <input type="text" className="w-full mb-8 h-[50px] rounded border-solid border-[1px] border-[#B50000]" />
 
-          <p className="font-montserrat font-medium text-2xl w-full mb-4">Email</p>
+          <p className="w-full mb-4">Email</p>
           <input type="text" className="w-full mb-8 h-[50px] rounded border-solid border-[1px] border-[#B50000]" />
 
-          <p className="font-montserrat font-medium text-2xl w-full mb-4">Phone number</p>
+          <p className="w-full mb-4">Phone number</p>
           <input type="text" className="w-full mb-8 h-[50px] rounded border-solid border-[1px] border-[#B50000]" />
 
-          <p className="font-montserrat font-medium text-2xl w-full mb-4">Message</p>
+          <p className="w-full mb-4">Message</p>
           <textarea className="w-full mb-10 h-[142px] rounded border-solid border-[1px] border-[#B50000]" />
 
           <Button children={'Send'} onClick={() => setIsSuccesPopupVisible(true)} />
         </div> 
         
-        <p className="font-montserrat font-medium text-2xl mb-9 text-center">
+        <p className="font-medium text-2xl mb-9 text-center">
           Our tea house continue to grows in order to allow everyone to discover tea.
         </p>
 
@@ -86,7 +86,7 @@ const ContactPage = () => {
         {isSuccesPopupVisible && 
           <SuccessMessagePopup setIsSuccesPopupVisible={setIsSuccesPopupVisible} />
         }
-      </>  
+      </div>  
     )
   }
   
