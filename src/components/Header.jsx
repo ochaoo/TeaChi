@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div className="font-montserrat-alternates font-normal text-xl 
-    flex flex-row justify-center items-center space-x-36 mt-4 mb-[7px]">
+    flex flex-row justify-center items-center space-x-36 mt-4 mb-[25px]">
       
       <button onClick={() => navigate(MAIN_ROUTE)}>Home</button>
       <button onClick={() => navigate(PRODUCTS_ROUTE)}>Products</button>
