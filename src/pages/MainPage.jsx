@@ -15,7 +15,7 @@ const MainPage = () => {
 
     return (
       <div>
-        <div className="bg-no-repeat bg-center bg-cover h-[771px] w-full bg-[url('./assets/image/MainPageTop.jpg')] 
+        <div className="bg-no-repeat bg-center bg-contain h-[771px] max-w-[1850px] mx-auto bg-[url('./assets/image/MainPageTop.jpg')] 
           pt-[150px] box-border mb-16" >
           <p className="font-montserrat-alternates font-normal text-8xl ml-[17vw] mb-[32px]">
             Tea shop
