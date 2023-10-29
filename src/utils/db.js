@@ -262,7 +262,7 @@ export const GreenTea = [
         text: 'Green tea, rose & red berries',
         image: '/GreenTea/1.png',
         miniature: '/GreenTea/1_1.png',
-        descriptionList: 'Inspired by a traditional Turkish recipe, this sweet and fruity green tea evokes green dates, orange blossoms, roses, and red berries. One of Palais des Thés\' most iconic teas!',
+        descriptionList: 'Inspired by a traditional Turkish recipe, this sweet and fruity green tea evokes green dates, orange blossoms and red berries. One of Palais des Thés\' most iconic teas!',
         description: `One of our most popular teas, this fruity blend is inspired by a Turkish recipe using green teas that evokes the characteristic fragrances used to perfume a hammam (steam bath): roses, green dates, berries and orange flower water.\n
         Sprinkled with flower petals in the pure Eastern tradition, its extraordinary fragrance comes from a subtle combination of Chinese green tea and rich, fruity aromas.`,
         ingredients: 'Green tea (China) (94%), flavours (including strawberry 2%), flower petals (blue mallow, red rose, sunflower) (3%).',
