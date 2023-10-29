@@ -37,7 +37,7 @@ const ProductsPage = () => {
         <MySelect setCurrentFilter={setCurrentFilter} currentFilter={currentFilter}/>
       </div>
 
-      <div className="w-4/5 mx-auto flex flex-wrap justify-between mt-[54px]">
+      <div className="max-w-[1200px] mx-auto flex flex-wrap mt-[54px] justify-between">
         {currentFilter === 'all' ? 
           [...BlackTea, ...FruitTea, ...GreenTea].map(tea => 
             <CardTea caption={tea.caption} id={tea.id} image={tea.image}
