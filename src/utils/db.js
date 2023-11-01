@@ -79,7 +79,7 @@ export const itemsPopularTea = [
         text: 'Green tea, rose & red berries',
         image: '/GreenTea/1.png',
         miniature: '/GreenTea/1_1.png',
-        descriptionList: 'Inspired by a traditional Turkish recipe, this sweet and fruity green tea evokes green dates, orange blossoms, roses, and red berries. One of Palais des Thés\' most iconic teas!'
+        descriptionList: 'Inspired by a traditional Turkish recipe, this sweet and fruity green tea evokes green dates, orange blossoms and red berries. One of Palais des Thés\' most iconic teas!'
     },
     {
         id: 2,

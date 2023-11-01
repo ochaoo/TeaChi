@@ -37,7 +37,7 @@ const ProductsPage = () => {
         <MySelect setCurrentFilter={setCurrentFilter} currentFilter={currentFilter}/>
       </div>
 
-      <div className="max-w-[1200px] mx-auto flex flex-wrap mt-[54px] justify-between">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-3 gap-x-[105px] gap-y-4 mt-[54px]">
         {currentFilter === 'all' ? 
           [...BlackTea, ...FruitTea, ...GreenTea].map(tea => 
             <CardTea caption={tea.caption} id={tea.id} image={tea.image}
@@ -46,7 +46,7 @@ const ProductsPage = () => {
           :
           filteredTeaList.map(tea => 
             <CardTea caption={tea.caption} id={tea.id} image={tea.image}
-              text={tea.text} key={tea.id}/>
+              text={tea.text} key={tea.id} description={tea.descriptionList}  />
           )  
         }
       </div>
