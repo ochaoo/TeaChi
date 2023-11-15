@@ -165,7 +165,7 @@ export const BlackTea = [
         infusionTime: `4'`,
         quantity: '0.2 oz / 10 fl oz - 6g / 30cl',
         temperature: '200F° - 95°C',
-        photo: ['/BlackTea/1_1_1.jpg', '/BlackTea/1_1_1_1.jpg']
+        photo: ['/BlackTea/1_1_1.png', '/BlackTea/1_1_1_1.png']
     },
     {
         id: 1,
@@ -183,7 +183,7 @@ export const BlackTea = [
         infusionTime: `4'`,
         quantity: '0.2 oz / 10 fl oz - 6g / 30cl',
         temperature: '200F° - 95°C',
-        photo: ['/BlackTea/2_2_2_2.jpg']
+        photo: ['/BlackTea/2_2_2.png', '/BlackTea/2_2_2_2.png']
     },
     {
         id: 2,
@@ -200,7 +200,7 @@ export const BlackTea = [
         infusionTime: `4'`,
         quantity: '0.6 oz / 34fl oz - 16g / 1L',
         temperature: '195°F - 90°C',
-        photo: ['/BlackTea/3_3_3.jpg', '/BlackTea/3_3_3_3.jpg']
+        photo: ['/BlackTea/3_3_3.png', '/BlackTea/3_3_3_3.png']
     }
 ]
 
@@ -219,7 +219,7 @@ export const FruitTea = [
         infusionTime: `5'`,
         quantity: '0.53 oz / 34 fl oz - 15g / 1L',
         temperature: '195°F - 90°C',
-        photo: ['/FruitTea/1_1_1_1.jpg']
+        photo: ['/FruitTea/1_1_1.png', '/FruitTea/1_1_1_1.png']
     },
     {
         id: 4,
@@ -235,7 +235,7 @@ export const FruitTea = [
         infusionTime: `5'`,
         quantity: '0.2oz / 30cl',
         temperature: '203°F / 95°C',
-        photo: ['/FruitTea/2_2_2.jpg']
+        photo: ['/FruitTea/2_2_2.png']
     },
     {
         id: 5,
@@ -273,7 +273,7 @@ export const GreenTea = [
         infusionTime: `3'`,
         quantity: '0.2 oz / 10 fl oz - 6g / 30cl',
         temperature: '170°F / 75°C',
-        photo: ['/GreenTea/1_1_1.jpg', '/GreenTea/1_1_1_1.jpg']
+        photo: ['/GreenTea/1_1_1.png', '/GreenTea/1_1_1_1.png']
     },
     {
         id: 7,
@@ -291,7 +291,7 @@ export const GreenTea = [
         infusionTime: `4'`,
         quantity: '0.2 oz / 10 fl oz - 6g / 30cl',
         temperature: '170°F - 75°C',
-        photo: ['/GreenTea/2_2_2.jpg', '/GreenTea/2_2_2_2.jpg']
+        photo: ['/GreenTea/2_2_2.png', '/GreenTea/2_2_2_2.png']
     },
     {
         id: 8,
@@ -309,7 +309,7 @@ export const GreenTea = [
         infusionTime: `4'`,
         quantity: '0.6 oz / 34fl oz - 16g / 1L',
         temperature: '195°F - 90°C',
-        photo: ['/GreenTea/3_3_3.jpg']
+        photo: ['/GreenTea/3_3_3.png']
     },
     {
         id: 9,
@@ -325,7 +325,7 @@ export const GreenTea = [
         infusionTime: `3'`,
         quantity: '0.2 oz / 10 fl oz - 6g / 30cl',
         temperature: '170°F - 75°C',
-        photo: ['/GreenTea/4_4_4.jpg']
+        photo: ['/GreenTea/4_4_4.png']
     },
     {
         id: 10,
@@ -341,7 +341,7 @@ export const GreenTea = [
         infusionTime: `3'`,
         quantity: '0.2 oz / 10 fl oz - 6g / 30cl',
         temperature: '167°F / 75°C',
-        photo: ['/GreenTea/5_5_5.jpg', '/GreenTea/5_5_5_5.jpg']
+        photo: ['/GreenTea/5_5_5.png', '/GreenTea/5_5_5_5.png']
     },
     {
         id: 11,
@@ -358,7 +358,7 @@ export const GreenTea = [
         infusionTime: `3'`,
         quantity: '6g / 30cl',
         temperature: '75°C - 170°F',
-        photo: ['/GreenTea/6_6_6.jpg', '/GreenTea/6_6_6_6.jpg']
+        photo: ['/GreenTea/6_6_6.png', '/GreenTea/6_6_6_6.png']
     },
     {
         id: 12,

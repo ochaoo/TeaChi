@@ -1,6 +1,7 @@
 import Dragon from '../assets/image/MainPageDragon.png'
 import Carousel from '../components/Carousel'
 import Gallery from '../assets/image/Gallery.png'
+import Vision from '../assets/image/Vision.png'
 
 import { itemsAdvantages, itemsPopularTea, itemsNewTea } from '../utils/db'
 import Button from '../components/Button'
@@ -47,8 +48,20 @@ const MainPage = () => {
           <Carousel tea={false} items={itemsAdvantages}/>
         <div className="bg-gradient-left h-1 mt-4 mb-16"></div>
 
-        <h2 className="text-center font-medium text-2xl mb-8">Most Popular Tea</h2>
-        <div className="bg-no-repeat bg-cover h-[440px] box-border bg-[url('./assets/image/PopularTea.png')]">
+        <div className="mt-[77px] w-[1200px] h-[405px] mx-auto flex justify-between">
+          <img src={Vision} alt="Vision" width={565} height={405} className="-mt-4"/>
+          <div className="mt-0">
+            <h2 className="text-center font-medium text-2xl mb-8">Our vision</h2>
+            <p className="w-[538px] font-montserrat-alternates font-normal text-2xl">
+              Sourcing teas directly from the growers,an approach unheard of in the tea world.To truly grasp the essence of tea, believes that you need to go straight to the source. 
+              <br /> <br />
+              This means venturing into tea-producing regions, visiting tea gardens and farms, and exploring uncharted territories. When it comes to discovering teas, it's all about creating a whole new industry and redefining the norms.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="text-center font-medium text-2xl mb-8 mt-[63px]">Most Popular Tea</h2>
+        <div className="bg-no-repeat bg-cover h-[440px] box-border bg-[url('./assets/image/New.png')]">
           <Carousel tea={true} items={itemsPopularTea}/>
         </div>
         
