@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
       fontFamily: {
         'montserrat-alternates': ['Montserrat Alternates', 'sans-serif'],
@@ -18,7 +19,10 @@ export default {
       animation: {
         'transform-opacity': 'transform 500ms ease-in-out, opacity 500ms ease-in-out',
 
-      }
+      },
+      fontSize: {
+        us: ['32px', '39px'],
+      },
     },
   },
   plugins: [],

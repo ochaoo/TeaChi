@@ -17,7 +17,7 @@ const MainPage = () => {
     return (
       <div className="font-montserrat-alternates">
         <div className="bg-no-repeat bg-center bg-contain h-[771px] max-w-[1850px] mx-auto bg-[url('./assets/image/MainPageTop.jpg')] 
-          pt-[150px] box-border mb-16 relative" >
+          pt-[150px] box-border mb-[75px] relative" >
           <div className="absolute ml-[360px]">
             <p className="font-normal text-8xl mb-[32px]">
               Tea shop
@@ -33,26 +33,26 @@ const MainPage = () => {
             </button>
           </div>
         </div>
-        <h2 className="text-center font-medium text-2xl mb-7">Who are we?</h2>
+        <h2 className="text-center font-medium text-us mb-8">Who are we?</h2>
 
-        <div className="flex justify-center h-[200px] min-w-min mb-16">
+        <div className="flex justify-center h-[200px] min-w-min mb-[75px]">
           <img src={Dragon} alt="Dragon" className="w-[300px] -mt-4"/>
-          <div className="max-w-[30vw] text-center font-normal text-lg mx-4 leading-[22px]">
+          <div className="max-w-[50vw] text-center font-normal text-2xl mx-10 leading-[29px]">
             We are a family owned business, located just outside London. We specialize in single origin estate, fully traceable, exquisite teas and teaware. Our deeply rooted connections with soil, tea and people allow us to inspire tea lovers everywhere. We believe everyone deserves transparently traded, exceptional tea.We bring tea directly from the plantations, we personally know farmers from all over the world. We go to Ukrainian farmers for fragrant herbs and fruits.
           </div>
           <img src={Dragon} alt="Dragon" className="w-[300px] -scale-x-100 -mt-4"/>
         </div>
 
-        <h2 className="text-center font-medium text-2xl mb-4">Advantages of TEACHI</h2>
+        <h2 className="text-center font-medium text-us mb-[34px]">Advantages of TEACHI</h2>
         <div className="bg-gradient-right h-1 mb-4"></div>
           <Carousel tea={false} items={itemsAdvantages}/>
-        <div className="bg-gradient-left h-1 mt-4 mb-16"></div>
+        <div className="bg-gradient-left h-1 mt-2 mb-16"></div>
 
         <div className="mt-[77px] w-[1200px] h-[405px] mx-auto flex justify-between">
           <img src={Vision} alt="Vision" width={565} height={405} className="-mt-4"/>
-          <div className="mt-0">
-            <h2 className="text-center font-medium text-2xl mb-8">Our vision</h2>
-            <p className="w-[538px] font-montserrat-alternates font-normal text-2xl">
+          <div className="mt-[-16px]">
+            <h2 className="text-center font-medium text-us mb-8">Our vision</h2>
+            <p className="w-[538px] font-montserrat-alternates font-normal text-2xl leading-[29px]">
               Sourcing teas directly from the growers,an approach unheard of in the tea world.To truly grasp the essence of tea, believes that you need to go straight to the source. 
               <br /> <br />
               This means venturing into tea-producing regions, visiting tea gardens and farms, and exploring uncharted territories. When it comes to discovering teas, it's all about creating a whole new industry and redefining the norms.
@@ -60,7 +60,7 @@ const MainPage = () => {
           </div>
         </div>
 
-        <h2 className="text-center font-medium text-2xl mb-8 mt-[63px]">Most Popular Tea</h2>
+        <h2 className="text-center font-medium text-us mb-8 mt-[63px]">Most Popular Tea</h2>
         <div className="bg-no-repeat bg-cover h-[440px] box-border bg-[url('./assets/image/New.png')]">
           <Carousel tea={true} items={itemsPopularTea}/>
         </div>
@@ -70,7 +70,7 @@ const MainPage = () => {
           onClick={() => navigate(PRODUCTS_ROUTE, {state: 'most-popular-tea'})} />
         </div>
 
-        <h2 className="text-center font-medium text-2xl mb-8">New</h2>
+        <h2 className="text-center font-medium text-us mb-8">New</h2>
         <div className="h-[440px] box-border bg-[url('./assets/image/New.png')] ">
           <Carousel tea={true} items={itemsNewTea}/>
         </div>
@@ -80,7 +80,7 @@ const MainPage = () => {
           onClick={() => navigate(PRODUCTS_ROUTE, {state: 'new-tea'})} />
         </div>
 
-        <h2 className="text-center font-medium text-2xl mb-7">Our gallery</h2>
+        <h2 className="text-center font-medium text-us mb-7">Our gallery</h2>
         <div className="bg-gradient-left h-1 w-2/4 mb-3 ml-auto" ></div>
         <div className="flex justify-center">
           <img src={Gallery} alt="Gallery" />

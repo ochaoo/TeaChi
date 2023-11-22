@@ -119,7 +119,7 @@ export const itemsNewTea = [
     {
         id: 3,
         caption: 'SCANDINAVIAN DETOX',
-        text: 'Caffeine-free blend of birch, sea buckthorn',
+        text: 'Caffeine-free blend of birch',
         image: '/FruitTea/1.png',
         miniature: '/FruitTea/1_1.png',
         descriptionList: 'A delicious organic caffeine-free herbal tea with birch, sea buckthorn, cranberry & bilberry.'

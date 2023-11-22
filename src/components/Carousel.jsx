@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Left from '../assets/image/ArrowLeft.png'
 import Right from '../assets/image/ArrowRight.png'
 import Slider from 'react-slick'
@@ -40,7 +39,7 @@ const Carousel = ({tea, items}) => {
       
       :
 
-      <div className="h-[263px] max-w-[1270px] box-border pt-2 mx-auto">
+      <div className="h-[202px] max-w-[1270px] box-border mx-auto">
 
         <Slider {...settings}>
           {items.map((item, index) => 
